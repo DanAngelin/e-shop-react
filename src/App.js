@@ -6,6 +6,9 @@ import Register from './pages/Register';
 import Home from './pages/Home';
 import About from './pages/About';
 import Page404 from './pages/Page404';
+import Category from './pages/Category';
+import TermsAndConditions from './pages/TermsAndConditions';
+import './utils/utility-classes.css';
 
 
 
@@ -24,6 +27,8 @@ export class App extends Component {
             <Route path='/register' component={Register} />
             <Route exact path='/' component={Home} />
             <Route path='/about' component={About} />
+            <Route path='/terms-and-conditions' component={TermsAndConditions}/>
+            <Route path='/category/:categoryName' component={Category}/>
             <Route path='*' component={Page404} />
           </Switch>
       </div>

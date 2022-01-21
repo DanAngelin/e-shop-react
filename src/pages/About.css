@@ -1,0 +1,12 @@
+.about {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    border-radius: 0.5rem;
+    color: #FFFEF9;
+    }
+
+.about span {
+   color: #E7D7BB;
+    }

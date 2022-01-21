@@ -1,0 +1,32 @@
+{
+    "backpacks": {
+        "image": "https://i.ibb.co/8MHNLLn/backpacks.jpg",
+        "name": "Backpacks",
+        "description": " Find your trekking backpack with many functionalities, such as drinking systems, rain covers, etc."
+    },
+    "tents": {
+        "image": "https://i.ibb.co/K2WvVyJ/tents.jpg",
+        "name": "Tents",
+        "description": "E-Shop offers a variety tents including family tents."
+    },
+    "clothing": {
+        "image": "https://i.ibb.co/GpYxhS3/clothing.jpg",
+        "name": "Clothing",
+        "description": "Be prepared for even the most extreme conditions with this range of clothing that's perfect for going Hiking & Trekking."
+    },
+    "footwear": {
+        "image": "https://i.ibb.co/P99tfc5/footwear.jpg",
+        "name": "Footwear",
+        "description": "See the best hiking shoes and boots for men and women. Shop the best trail and waterproof hiking shoes."
+    },
+    "hydration": {
+        "image": "https://i.ibb.co/T4gWjwh/hydration.jpg",
+        "name": "Hydration",
+        "description": "When hiking in hot and/or humid conditions, one litre per hour is generally recommended."
+    },
+    "accesories": {
+        "image": "https://i.ibb.co/RpSTqkF/accesories.jpg",
+        "name": "Accesorii",
+        "description": "Our accessories will allow you to hike with your trekking poles in all 4 seasons."
+    }
+}

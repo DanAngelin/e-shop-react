@@ -1,0 +1,17 @@
+.image-category {
+    border-radius: 1rem;
+    filter: hue-rotate(90deg);
+    transition: 1s;
+}
+
+.card {
+    background:#F9FBF7 !important;
+    border-radius: 1rem !important;
+    transform: translateY(2rem);
+    padding: 0.2rem 0.5rem;
+}
+
+.card:hover img {
+    filter: hue-rotate(0);
+    transform: translateY(-0.5rem);
+}

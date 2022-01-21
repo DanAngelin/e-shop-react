@@ -1,0 +1,6 @@
+imgCategory {
+https://www.pexels.com/
+https://unsplash.com/
+}
+
+svg { https://dryicons.com/ }

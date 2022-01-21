@@ -1,0 +1,17 @@
+header {
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
+    border-radius: 1rem;
+}
+
+header .logo {
+    width: 150px;
+    height: auto;
+}
+
+header svg {
+    width: 35px;
+}
+
+.login-icon {
+    width: 20px;
+}
