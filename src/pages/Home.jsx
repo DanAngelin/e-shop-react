@@ -21,8 +21,14 @@ class Home extends React.Component{
     }
 
     render() {
+
+        const {user, signOut} = this.props;
+
   return(
-            <Layout>
+            <Layout
+                user={user}
+                signOut={signOut}
+            >
                 <div className="container-fluid container-min-max-width">
                     <div className='banner'>
                         <img src={Banner} alt='banner'className='col-10'/>

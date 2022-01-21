@@ -15,3 +15,7 @@ header svg {
 .login-icon {
     width: 20px;
 }
+
+.logout {
+    cursor: pointer;
+}
