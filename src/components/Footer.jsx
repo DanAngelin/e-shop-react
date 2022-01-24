@@ -8,7 +8,7 @@ import './Footer.css';
 
 function Footer() {
   return(
-    <footer>
+    <footer className='bottom-fixed'>
     <div className="container-fluid container-min-max-width
         d-flex justify-content-between align-items-center">
         <div>

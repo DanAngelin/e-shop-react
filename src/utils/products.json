@@ -1,32 +1,332 @@
 {
     "backpacks": {
+        "items": [
+            {
+                "id": 1,
+                "name": "Forcl4z Trek 150, 60 L",
+                "price": 44,
+                "currency": "€",
+                "image": "https://i.ibb.co/Lt9WZFr/backpack1.png",
+                "size": "Height: 24.8 - Width: 11 - Depth: 11",
+                "colour": "Blue & Grey",
+                "material": "100% cationic polyester",
+                "brand": "Forcl4z",
+                "description": "Volume with compartment options. Access from the front + from below. 5 pockets. 600D polyester main fabric. Polyamide base. 10-year warranty"
+            },
+            {
+                "id": 2,
+                "name": "Scott Trek 100, 30 L",
+                "price": 31,
+                "currency": "€",
+                "image": "https://i.ibb.co/sJbQBKg/backpack2.png",
+                "size": "Height: 18.5 - Width: 9.4 - Depth: 5.5",
+                "colour": "Green & Grey",
+                "material": "100% cationic polyester",
+                "brand": "Scott",
+                "description": "Foam back - 2 pads | Foam straps | 2 Thumb loops | Chest strap"
+            },
+            {
+                "id": 3,
+                "name": "Jack Wolfski Trek 100, 65 L",
+                "price": 57,
+                "currency": "€",
+                "image": "https://i.ibb.co/jRG7Gt2/backpack3.png",
+                "size": "Height: 18.5 - Width: 9.4 - Depth: 5.5",
+                "colour": "Black",
+                "material": "100% cationic polyester",
+                "brand": "Jack Wolfskin",
+                "description": "Backpack with multiple inside and exterior pockets and a boot compartment."
+            },
+            {
+                "id": 4,
+                "name": "The North Face 120, 30 L",
+                "price": 33,
+                "currency": "€",
+                "image": "https://i.ibb.co/2Nk5Cvg/backpack4.png",
+                "size": "Height: 18.5 - Width: 9.4 - Depth: 5.5",
+                "colour": "Red",
+                "material": "100% cationic polyester",
+                "brand": "The North Face",
+                "description": "Foam back - 2 pads | Foam straps | 2 Thumb loops | Chest strap"
+            }
+        ],
         "image": "https://i.ibb.co/8MHNLLn/backpacks.jpg",
         "name": "Backpacks",
         "description": " Find your trekking backpack with many functionalities, such as drinking systems, rain covers, etc."
     },
     "tents": {
+        "items": [
+            {
+                "id": 1,
+                "name": "OzzTrall Waterproof Camping Tent, 2 Person",
+                "price": 44,
+                "currency": "€",
+                "image": "https://i.ibb.co/kxsqN1n/tent4.png",
+                "size": "130 X 210 cm",
+                "colour": "Green",
+                "material": "100% cationic polyester",
+                "brand": "OzzTrall",
+                "description": "Free-standing structure. 2-second assembly. Guided folding system: Easy"
+            },
+            {
+                "id": 2,
+                "name": "Kazoo Waterproof Camping Tent, 2 Person",
+                "price": 34,
+                "currency": "€",
+                "image": "https://i.ibb.co/WGhkSY3/tetn9.png",
+                "size": "197 X 210 cm",
+                "colour": "Yellow",
+                "material": "100% cationic polyester",
+                "brand": "Kazoo",
+                "description": "Free-standing structure. 2-second assembly. Guided folding system: Easy"
+            },
+            {
+                "id": 3,
+                "name": "Moon Lenze Waterproof Camping, 2 Person",
+                "price": 59,
+                "currency": "€",
+                "image": "https://i.ibb.co/V2TWKJk/tent3.png",
+                "size": "197 X 210 cm",
+                "colour": "Blue & Grey",
+                "material": "100% cationic polyester",
+                "brand": "Moon Lenze",
+                "description": "Free-standing structure. 2-second assembly. Guided folding system: Easy"
+            },
+            {
+                "id": 3,
+                "name": "Moon Lenze Waterproof Camping, 3 Person",
+                "price": 64,
+                "currency": "€",
+                "image": "https://i.ibb.co/WP8w9CH/tent9.png",
+                "size": "197 X 210 cm",
+                "colour": "Blue & Grey",
+                "material": "100% cationic polyester",
+                "brand": "Moon Lenze",
+                "description": "Free-standing structure. 2-second assembly. Guided folding system: Easy"
+            }
+        ],
         "image": "https://i.ibb.co/K2WvVyJ/tents.jpg",
         "name": "Tents",
         "description": "E-Shop offers a variety tents including family tents."
     },
     "clothing": {
+        "items": [
+            {
+                "id": 1,
+                "name": "Trekking Pants Men's NH120",
+                "price": 21,
+                "currency": "€",
+                "image": "https://i.ibb.co/bzBZGK9/clothing1.png",
+                "size": "S/M/L/XL/XXL",
+                "colour": "Green",
+                "material": "100% Polyamide",
+                "brand": "Trekking",
+                "description": "The fabric transfers moisture from the body outward."
+            },
+            {
+                "id": 2,
+                "name": "Trekking Jacket Women's",
+                "price": 28,
+                "currency": "€",
+                "image": "https://i.ibb.co/2sTcff6/clothing2.png",
+                "size": "S/M/L/XL/XXL",
+                "colour": "Red",
+                "material": "100% Polyamide",
+                "brand": "Forcl4z",
+                "description": "The fabric transfers moisture from the body outward."
+            },
+            {
+                "id": 3,
+                "name": "Jacket Oberalp Men's",
+                "price": 32,
+                "currency": "€",
+                "image": "https://i.ibb.co/vDQXbnt/clothing3.png",
+                "size": "S/M/L/XL/XXL",
+                "colour": "Green",
+                "material": "100% cationic polyester",
+                "brand": "Forcl4z",
+                "description": "The fabric transfers moisture from the body outward."
+            },
+            {
+                "id": 4,
+                "name": "Trekking Belt Pants Men's",
+                "price": 32,
+                "currency": "€",
+                "image": "https://i.ibb.co/P4HJYg9/clothing4.png",
+                "size": "S/M/L/XL/XXL",
+                "colour": "Blue",
+                "material": "100% Polyamide",
+                "brand": "Forcl4z",
+                "description": "The fabric transfers moisture from the body outward."
+            }
+        ],
         "image": "https://i.ibb.co/GpYxhS3/clothing.jpg",
         "name": "Clothing",
         "description": "Be prepared for even the most extreme conditions with this range of clothing that's perfect for going Hiking & Trekking."
     },
     "footwear": {
+        "items": [
+            {
+                "id": 1,
+                "name": "Trekking Footwear Snow",
+                "price": 38,
+                "currency": "€",
+                "image": "https://i.ibb.co/p1MwZPw/footwear1.png",
+                "size": "39/40/41/42/43/44",
+                "colour": "Brown",
+                "material": "100% Rubber - Thermoplastic",
+                "brand": "Trekking",
+                "description": "Waterproof & breathable membrane lining:Your feet stay dry for 3h in all weather"
+            },
+            {
+                "id": 2,
+                "name": "Crampons Footwear Mountaineering",
+                "price": 63,
+                "currency": "€",
+                "image": "https://i.ibb.co/rdtHmRD/footwear2.png",
+                "size": "39/40/41/42/43/44",
+                "colour": "Brown",
+                "material": "100% Rubber - Thermoplastic",
+                "brand": "Trekking",
+                "description": "Waterproof & breathable membrane lining:Your feet stay dry for 3h in all weather"
+            },
+            {
+                "id": 3,
+                "name": "Mountaineering Trekking Footwear",
+                "price": 25,
+                "currency": "€",
+                "image": "https://i.ibb.co/C6hzR83/footwear3.png",
+                "size": "39/40/41/42/43/44",
+                "colour": "Brown",
+                "material": "100% Rubber - Thermoplastic",
+                "brand": "Trekking",
+                "description": "Waterproof & breathable membrane lining:Your feet stay dry for 3h in all weather"
+            },
+            {
+                "id": 4,
+                "name": "Trekking Footwear Pinnik",
+                "price": 29,
+                "currency": "€",
+                "image": "https://i.ibb.co/p1bw1gr/footwear4.png",
+                "size": "39/40/41/42/43/44",
+                "colour": "Brown",
+                "material": "100% Rubber - Thermoplastic",
+                "brand": "Trekking",
+                "description": "Waterproof & breathable membrane lining:Your feet stay dry for 3h in all weather"
+            }
+        ],
         "image": "https://i.ibb.co/P99tfc5/footwear.jpg",
         "name": "Footwear",
         "description": "See the best hiking shoes and boots for men and women. Shop the best trail and waterproof hiking shoes."
     },
     "hydration": {
+        "items": [
+            {
+                "id": 1,
+                "name": "Hydration Water Bottles Salomon",
+                "price": 8,
+                "currency": "€",
+                "image": "https://i.ibb.co/dQkD83K/hydration1.png",
+                "size": "1L",
+                "colour": "Blue",
+                "material": "55% Polypropylene, 42% Styrene ethylene butadiene styrene, 3% Silicone",
+                "brand": "Trekking",
+                "description": "A flask that opens quickly and easily with 2 hands and made of lightweight and durable aluminum. Holds 1 liter"
+            },
+            {
+                "id": 2,
+                "name": "Hydration Systems CamelBak Hydration",
+                "price": 19,
+                "currency": "€",
+                "image": "https://i.ibb.co/SVLZW1X/hydration2.png",
+                "size": "1L",
+                "colour": "Blue",
+                "material": "100% Aluminum",
+                "brand": "Trekking",
+                "description": "A flask that opens quickly and easily with 2 hands and made of lightweight and durable aluminum. Holds 1 liter"
+            },
+            {
+                "id": 3,
+                "name": "Water Filter LifeStraw Drinking",
+                "price": 13,
+                "currency": "€",
+                "image": "https://i.ibb.co/hRfRJgW/hydration3.png",
+                "size": "1.5L",
+                "colour": "Blue",
+                "material": "55% Polypropylene, 42% Styrene ethylene butadiene styrene, 3% Silicone",
+                "brand": "Trekking",
+                "description": "A flask that opens quickly and easily with 2 hands and made of lightweight and durable aluminum. Holds 1 liter"
+            }
+        ],
         "image": "https://i.ibb.co/T4gWjwh/hydration.jpg",
         "name": "Hydration",
         "description": "When hiking in hot and/or humid conditions, one litre per hour is generally recommended."
     },
     "accesories": {
+        "items": [
+            {
+                "id": 1,
+                "name": "Ski Poles Trekking Easy-Adjust",
+                "price": 9,
+                "currency": "€",
+                "image": "https://i.ibb.co/gZV7PPg/acc1.png",
+                "size": "S/M/L/XL/XXL",
+                "colour": "Black & Red",
+                "material": "100% Aluminum",
+                "brand": "Trekking",
+                "description": "Dense foam grip, long 3D design. Comfortable knob. Soft wrist-strap"
+            },
+            {
+                "id": 2,
+                "name": "Trekking Poles Mountaineering Easy-Adjust",
+                "price": 17,
+                "currency": "€",
+                "image": "https://i.ibb.co/5M1qKY6/acc2.png",
+                "size": "S/M/L/XL/XXL",
+                "colour": "Dark Grey",
+                "material": "100% Aluminum",
+                "brand": "Trekking",
+                "description": "Dense foam grip, long 3D design. Comfortable knob. Soft wrist-strap"
+            },
+            {
+                "id": 3,
+                "name": "Ski Poles Hiking Trekking Walking Easy-Adjust",
+                "price": 26,
+                "currency": "€",
+                "image": "https://i.ibb.co/ftDQ6dL/acc3.png",
+                "size": "S/M/L/XL/XXL",
+                "colour": "Black & Red",
+                "material": "100% Aluminum",
+                "brand": "Trekking",
+                "description": "Dense foam grip, long 3D design. Comfortable knob. Soft wrist-strap"
+            },
+            {
+                "id": 4,
+                "name": "Trekking Hiking Poles Ski LEKI Easy-Adjust",
+                "price": 21,
+                "currency": "€",
+                "image": "https://i.ibb.co/b3sR3TN/acc4.png",
+                "size": "S/M/L/XL/XXL",
+                "colour": "White & Lemon-Yellow",
+                "material": "100% Aluminum",
+                "brand": "LEKI",
+                "description": "Dense foam grip, long 3D design. Comfortable knob. Soft wrist-strap"
+            },
+            {
+                "id": 5,
+                "name": "Trekking Hiking Poles LEKI Lenhart Easy-Adjust",
+                "price": 8,
+                "currency": "€",
+                "image": "https://i.ibb.co/XkwTJsN/acc5.png",
+                "size": "S/M/L/XL/XXL",
+                "colour": "Black & White",
+                "material": "100% Aluminum",
+                "brand": "LEKI",
+                "description": "Dense foam grip, long 3D design. Comfortable knob. Soft wrist-strap"
+            }
+        ],
         "image": "https://i.ibb.co/RpSTqkF/accesories.jpg",
-        "name": "Accesorii",
+        "name": "Accesories",
         "description": "Our accessories will allow you to hike with your trekking poles in all 4 seasons."
     }
 }

@@ -1,0 +1,18 @@
+.product-item {
+    background:#F9FBF7 !important;
+    border-radius: 1rem !important;
+    transform: translateY(2rem);
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+}
+
+.product-item img {
+    max-width: 250px;
+    max-height: 250px;
+    transition: 1s;
+}
+
+.product-item:hover img {
+    filter: hue-rotate(10%);
+    transform: translateY(-0.5rem);
+}
