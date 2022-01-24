@@ -22,6 +22,7 @@ const firebaseAppAuth = firebaseApp.auth();
 
 const providers = {
   googleProvider: new firebase.auth.GoogleAuthProvider(),
+  facebookProvider: new firebase.auth.FacebookAuthProvider()
 };
 
 export class App extends Component {
@@ -30,8 +31,9 @@ export class App extends Component {
     this.state = {}
   }
 
-
   render() {
+    // console.log(providers)
+    console.log(this.props)
     return (
       <div className='Apsp'>
           <Switch>
@@ -39,6 +41,7 @@ export class App extends Component {
                     <Login
                     {...props}
                     signInWithGoogle={this.props.signInWithGoogle}
+                    signInWithFacebook={this.props.signInWithFacebook}
                     />} 
             />
             <Route path='/register' component={Register} />
