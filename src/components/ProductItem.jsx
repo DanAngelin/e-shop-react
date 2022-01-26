@@ -2,7 +2,6 @@ import React from 'react';
 import './ProductItem.css';
 import { connect } from 'react-redux';
 import { addToCart } from '../redux/actions/cart';
-import ProductList from './ProductList';
 import { ReactComponent as Add } from '../assets/icons/add.svg';
 
 function ProductItem(props) {
