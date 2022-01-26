@@ -4,7 +4,7 @@
             {
                 "id": 1,
                 "name": "Forcl4z Trek 150, 60 L",
-                "price": 44,
+                "price": 44.99,
                 "currency": "€",
                 "image": "https://i.ibb.co/Lt9WZFr/backpack1.png",
                 "size": "Height: 24.8 - Width: 11 - Depth: 11",
@@ -16,7 +16,7 @@
             {
                 "id": 2,
                 "name": "Scott Trek 100, 30 L",
-                "price": 31,
+                "price": 31.49,
                 "currency": "€",
                 "image": "https://i.ibb.co/sJbQBKg/backpack2.png",
                 "size": "Height: 18.5 - Width: 9.4 - Depth: 5.5",
@@ -28,7 +28,7 @@
             {
                 "id": 3,
                 "name": "Jack Wolfski Trek 100, 65 L",
-                "price": 57,
+                "price": 57.99,
                 "currency": "€",
                 "image": "https://i.ibb.co/jRG7Gt2/backpack3.png",
                 "size": "Height: 18.5 - Width: 9.4 - Depth: 5.5",
@@ -40,7 +40,7 @@
             {
                 "id": 4,
                 "name": "The North Face 120, 30 L",
-                "price": 33,
+                "price": 33.29,
                 "currency": "€",
                 "image": "https://i.ibb.co/2Nk5Cvg/backpack4.png",
                 "size": "Height: 18.5 - Width: 9.4 - Depth: 5.5",
@@ -57,9 +57,9 @@
     "tents": {
         "items": [
             {
-                "id": 1,
+                "id": 5,
                 "name": "OzzTrall Waterproof Camping Tent, 2 Person",
-                "price": 44,
+                "price": 44.19,
                 "currency": "€",
                 "image": "https://i.ibb.co/kxsqN1n/tent4.png",
                 "size": "130 X 210 cm",
@@ -69,9 +69,9 @@
                 "description": "Free-standing structure. 2-second assembly. Guided folding system: Easy"
             },
             {
-                "id": 2,
+                "id": 6,
                 "name": "Kazoo Waterproof Camping Tent, 2 Person",
-                "price": 34,
+                "price": 34.99,
                 "currency": "€",
                 "image": "https://i.ibb.co/WGhkSY3/tetn9.png",
                 "size": "197 X 210 cm",
@@ -81,9 +81,9 @@
                 "description": "Free-standing structure. 2-second assembly. Guided folding system: Easy"
             },
             {
-                "id": 3,
+                "id": 7,
                 "name": "Moon Lenze Waterproof Camping, 2 Person",
-                "price": 59,
+                "price": 59.29,
                 "currency": "€",
                 "image": "https://i.ibb.co/V2TWKJk/tent3.png",
                 "size": "197 X 210 cm",
@@ -93,9 +93,9 @@
                 "description": "Free-standing structure. 2-second assembly. Guided folding system: Easy"
             },
             {
-                "id": 3,
+                "id": 8,
                 "name": "Moon Lenze Waterproof Camping, 3 Person",
-                "price": 64,
+                "price": 64.21,
                 "currency": "€",
                 "image": "https://i.ibb.co/WP8w9CH/tent9.png",
                 "size": "197 X 210 cm",
@@ -112,9 +112,9 @@
     "clothing": {
         "items": [
             {
-                "id": 1,
+                "id": 9,
                 "name": "Trekking Pants Men's NH120",
-                "price": 21,
+                "price": 21.99,
                 "currency": "€",
                 "image": "https://i.ibb.co/bzBZGK9/clothing1.png",
                 "size": "S/M/L/XL/XXL",
@@ -124,9 +124,9 @@
                 "description": "The fabric transfers moisture from the body outward."
             },
             {
-                "id": 2,
+                "id": 10,
                 "name": "Trekking Jacket Women's",
-                "price": 28,
+                "price": 28.19,
                 "currency": "€",
                 "image": "https://i.ibb.co/2sTcff6/clothing2.png",
                 "size": "S/M/L/XL/XXL",
@@ -136,9 +136,9 @@
                 "description": "The fabric transfers moisture from the body outward."
             },
             {
-                "id": 3,
+                "id": 11,
                 "name": "Jacket Oberalp Men's",
-                "price": 32,
+                "price": 32.49,
                 "currency": "€",
                 "image": "https://i.ibb.co/vDQXbnt/clothing3.png",
                 "size": "S/M/L/XL/XXL",
@@ -148,9 +148,9 @@
                 "description": "The fabric transfers moisture from the body outward."
             },
             {
-                "id": 4,
+                "id": 12,
                 "name": "Trekking Belt Pants Men's",
-                "price": 32,
+                "price": 32.19,
                 "currency": "€",
                 "image": "https://i.ibb.co/P4HJYg9/clothing4.png",
                 "size": "S/M/L/XL/XXL",
@@ -167,9 +167,9 @@
     "footwear": {
         "items": [
             {
-                "id": 1,
+                "id": 13,
                 "name": "Trekking Footwear Snow",
-                "price": 38,
+                "price": 38.89,
                 "currency": "€",
                 "image": "https://i.ibb.co/p1MwZPw/footwear1.png",
                 "size": "39/40/41/42/43/44",
@@ -179,9 +179,9 @@
                 "description": "Waterproof & breathable membrane lining:Your feet stay dry for 3h in all weather"
             },
             {
-                "id": 2,
+                "id": 14,
                 "name": "Crampons Footwear Mountaineering",
-                "price": 63,
+                "price": 63.39,
                 "currency": "€",
                 "image": "https://i.ibb.co/rdtHmRD/footwear2.png",
                 "size": "39/40/41/42/43/44",
@@ -191,9 +191,9 @@
                 "description": "Waterproof & breathable membrane lining:Your feet stay dry for 3h in all weather"
             },
             {
-                "id": 3,
+                "id": 15,
                 "name": "Mountaineering Trekking Footwear",
-                "price": 25,
+                "price": 25.69,
                 "currency": "€",
                 "image": "https://i.ibb.co/C6hzR83/footwear3.png",
                 "size": "39/40/41/42/43/44",
@@ -203,9 +203,9 @@
                 "description": "Waterproof & breathable membrane lining:Your feet stay dry for 3h in all weather"
             },
             {
-                "id": 4,
+                "id": 16,
                 "name": "Trekking Footwear Pinnik",
-                "price": 29,
+                "price": 29.99,
                 "currency": "€",
                 "image": "https://i.ibb.co/p1bw1gr/footwear4.png",
                 "size": "39/40/41/42/43/44",
@@ -222,9 +222,9 @@
     "hydration": {
         "items": [
             {
-                "id": 1,
+                "id": 17,
                 "name": "Hydration Water Bottles Salomon",
-                "price": 8,
+                "price": 8.29,
                 "currency": "€",
                 "image": "https://i.ibb.co/dQkD83K/hydration1.png",
                 "size": "1L",
@@ -234,9 +234,9 @@
                 "description": "A flask that opens quickly and easily with 2 hands and made of lightweight and durable aluminum. Holds 1 liter"
             },
             {
-                "id": 2,
+                "id": 18,
                 "name": "Hydration Systems CamelBak Hydration",
-                "price": 19,
+                "price": 19.99,
                 "currency": "€",
                 "image": "https://i.ibb.co/SVLZW1X/hydration2.png",
                 "size": "1L",
@@ -246,9 +246,9 @@
                 "description": "A flask that opens quickly and easily with 2 hands and made of lightweight and durable aluminum. Holds 1 liter"
             },
             {
-                "id": 3,
+                "id": 19,
                 "name": "Water Filter LifeStraw Drinking",
-                "price": 13,
+                "price": 13.49,
                 "currency": "€",
                 "image": "https://i.ibb.co/hRfRJgW/hydration3.png",
                 "size": "1.5L",
@@ -265,9 +265,9 @@
     "accesories": {
         "items": [
             {
-                "id": 1,
+                "id": 20,
                 "name": "Ski Poles Trekking Easy-Adjust",
-                "price": 9,
+                "price": 9.49,
                 "currency": "€",
                 "image": "https://i.ibb.co/gZV7PPg/acc1.png",
                 "size": "S/M/L/XL/XXL",
@@ -277,9 +277,9 @@
                 "description": "Dense foam grip, long 3D design. Comfortable knob. Soft wrist-strap"
             },
             {
-                "id": 2,
+                "id": 21,
                 "name": "Trekking Poles Mountaineering Easy-Adjust",
-                "price": 17,
+                "price": 17.39,
                 "currency": "€",
                 "image": "https://i.ibb.co/5M1qKY6/acc2.png",
                 "size": "S/M/L/XL/XXL",
@@ -289,9 +289,9 @@
                 "description": "Dense foam grip, long 3D design. Comfortable knob. Soft wrist-strap"
             },
             {
-                "id": 3,
+                "id": 22,
                 "name": "Ski Poles Hiking Trekking Walking Easy-Adjust",
-                "price": 26,
+                "price": 26.19,
                 "currency": "€",
                 "image": "https://i.ibb.co/ftDQ6dL/acc3.png",
                 "size": "S/M/L/XL/XXL",
@@ -301,9 +301,9 @@
                 "description": "Dense foam grip, long 3D design. Comfortable knob. Soft wrist-strap"
             },
             {
-                "id": 4,
+                "id": 23,
                 "name": "Trekking Hiking Poles Ski LEKI Easy-Adjust",
-                "price": 21,
+                "price": 21.89,
                 "currency": "€",
                 "image": "https://i.ibb.co/b3sR3TN/acc4.png",
                 "size": "S/M/L/XL/XXL",
@@ -313,9 +313,9 @@
                 "description": "Dense foam grip, long 3D design. Comfortable knob. Soft wrist-strap"
             },
             {
-                "id": 5,
+                "id": 24,
                 "name": "Trekking Hiking Poles LEKI Lenhart Easy-Adjust",
-                "price": 8,
+                "price": 8.59,
                 "currency": "€",
                 "image": "https://i.ibb.co/XkwTJsN/acc5.png",
                 "size": "S/M/L/XL/XXL",

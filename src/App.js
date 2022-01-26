@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Page404 from './pages/Page404';
 import Category from './pages/Category';
+import Cart from './pages/Cart';
 import TermsAndConditions from './pages/TermsAndConditions';
 import './utils/utility-classes.css';
 import withFirebaseAuth from 'react-with-firebase-auth'
@@ -32,8 +33,6 @@ export class App extends Component {
   }
 
   render() {
-    // console.log(providers)
-    console.log(this.props)
     return (
       <div className='Apsp'>
           <Switch>
@@ -55,6 +54,7 @@ export class App extends Component {
             />
             <Route path='/about' component={About} />
             <Route path='/terms-and-conditions' component={TermsAndConditions}/>
+            <Route path='/cart' component={Cart}/>
             <Route path='/category/:categoryName' component={Category}/>
             <Route path='*' component={Page404} />
           </Switch>

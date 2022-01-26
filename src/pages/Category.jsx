@@ -14,8 +14,6 @@ class Category extends Component {
 
     componentDidMount() {
 
-        console.log(this.props);
-
         const { match } = this.props;
 
         const categoryName = match.params.categoryName;

@@ -16,3 +16,17 @@
     filter: hue-rotate(10%);
     transform: translateY(-0.5rem);
 }
+
+.product-page svg {
+    width: 20px;
+}
+
+.product-page button {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.product-page button:active {
+    background-color: #654360 !important;
+}

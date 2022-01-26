@@ -1,0 +1,14 @@
+.cart-page {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    min-height: 100vh;
+}
+
+.cart-page img {
+    max-height: 100px;
+}
+
+.cart-page svg {
+    cursor: pointer;
+    width: 25px;
+}
