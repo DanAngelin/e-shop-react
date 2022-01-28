@@ -1,5 +1,5 @@
 import './App.css';
-import React, { Component } from 'react';
+import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Login from './pages/Login';
 import Register from './pages/Register';
@@ -10,48 +10,18 @@ import Category from './pages/Category';
 import Cart from './pages/Cart';
 import TermsAndConditions from './pages/TermsAndConditions';
 import './utils/utility-classes.css';
-import withFirebaseAuth from 'react-with-firebase-auth'
-import firebase from 'firebase/app';
-import 'firebase/auth';
-import firebaseConfig from './configs/firebase';
 
 
 
-const firebaseApp = firebase.initializeApp(firebaseConfig);
 
-const firebaseAppAuth = firebaseApp.auth();
+function App() {
 
-const providers = {
-  googleProvider: new firebase.auth.GoogleAuthProvider(),
-  facebookProvider: new firebase.auth.FacebookAuthProvider()
-};
-
-export class App extends Component {
-  constructor() {
-    super();
-    this.state = {}
-  }
-
-  render() {
     return (
-      <div className='Apsp'>
+      <div className='App'>
           <Switch>
-            <Route path='/login' render={(props) => 
-                    <Login
-                    {...props}
-                    signInWithGoogle={this.props.signInWithGoogle}
-                    signInWithFacebook={this.props.signInWithFacebook}
-                    />} 
-            />
+            <Route path='/login' component={Login} />
             <Route path='/register' component={Register} />
-            <Route exact path='/'
-                    render={(props) =>
-                      <Home
-                      {...props}
-                      user={this.props.user}
-                      signOut={this.props.signOut}
-                    />}
-            />
+            <Route exact path='/' component={Home}/>
             <Route path='/about' component={About} />
             <Route path='/terms-and-conditions' component={TermsAndConditions}/>
             <Route path='/cart' component={Cart}/>
@@ -60,10 +30,6 @@ export class App extends Component {
           </Switch>
       </div>
     );
-  }
 }
 
-export default withFirebaseAuth({
-  providers,
-  firebaseAppAuth,
-})(App);
+export default App;

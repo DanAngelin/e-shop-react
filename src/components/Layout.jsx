@@ -5,14 +5,9 @@ import './Layout.css';
 
 function Layout(props) {
 
-    const {user, signOut} = props;
-
   return(
     <div>
-        <Header
-                user={user}
-                signOut={signOut}
-        />
+        <Header/>
             { props.children }
         <Footer/>
     </div>

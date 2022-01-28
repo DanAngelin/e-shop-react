@@ -5,18 +5,13 @@ import { ReactComponent as ShoppingCart } from '../assets/icons/shopping-cart.sv
 import { ReactComponent as LoginIcon } from '../assets/icons/login.svg';
 import './Header.css';
 import { connect } from 'react-redux';
+import { logoutUser } from '../redux/actions/user';
 
 
 function Header(props) {
 
-
   // props for google, facebook and number of products in cart
-const {user, signOut, numberOfProducts} = props;
-
-function handleSignOut() {
-  signOut();
-}
-
+const { numberOfProducts } = props;
 
   return(
     <header className="border-bottom mb-3">
@@ -31,13 +26,12 @@ function handleSignOut() {
 
           {/* display name from google or facebook - login - logout */}
           <div>
-                  { user && <p>Hello, {user.displayName}!</p> }
+                  { props.user && <p>Hello, {props.user.displayName}!</p> }
             <div className="d-flex justify-content-end align-items-center ">
-                { user
-                  ? <p className="logout h5" onClick={handleSignOut}>Logout</p>
+                { props.user
+                  ? <p className="logout h5" onClick={() => props.signOut()}>Logout</p>
                   : <Link to="/login" className="h5">Login<LoginIcon className='login-icon'/></Link>
                 }
-
 
                   {/* Link to page cart - svg cart - number of products in cart */}
                 <div className='d-flex align-items-center'>
@@ -55,11 +49,20 @@ function handleSignOut() {
 }
 
 
-// function mapStateToProps for number of products in cart
+// function mapStateToProps for number of products in cart & login user Google/FB
 function mapStateToProps(state) {
   return {
     numberOfProducts: state.cart.products.length,
+    user: state.user.data
   }
 }
+
+function mapDispatchToProps(dispatch) {
+  return {
+      signOut: () => dispatch(logoutUser())
+  }
+}
+
+
 // connect, HOC
-export default connect(mapStateToProps, null)(Header);
+export default connect(mapStateToProps, mapDispatchToProps)(Header);

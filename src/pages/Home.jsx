@@ -21,32 +21,26 @@ class Home extends React.Component{
     }
 
     render() {
-
-        const {user, signOut} = this.props;
-
-  return(
-            <Layout
-                user={user}
-                signOut={signOut}
-            >
-                <div className="container-fluid container-min-max-width">
-                    <div className='banner'>
-                        <img src={Banner} alt='banner'className='col-10'/>
-                    </div>
-                    <div className="row">
-                        {this.state.categories.map((category, index) =>
-                            <HomeCategory
-                                key={index}
-                                route={category}
-                                name={products[category].name}
-                                description={products[category].description}
-                                image={products[category].image}
-                            />
-                        )}
-                    </div>
-                </div>
-            </Layout>
-        );
+        return(
+                    <Layout>
+                        <div className="container-fluid container-min-max-width">
+                            <div className='banner'>
+                                <img src={Banner} alt='banner'className='col-10'/>
+                            </div>
+                            <div className="row">
+                                {this.state.categories.map((category, index) =>
+                                    <HomeCategory
+                                        key={index}
+                                        route={category}
+                                        name={products[category].name}
+                                        description={products[category].description}
+                                        image={products[category].image}
+                                    />
+                                )}
+                            </div>
+                        </div>
+                    </Layout>
+                );
     }
 }
 
