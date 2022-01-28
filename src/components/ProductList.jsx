@@ -1,5 +1,8 @@
+import { connect } from 'react-redux';
 import React from 'react';
 import ProductItem from './ProductItem';
+import BaseListSidebar from './BaseListSidebar';
+
 
 class ProductList extends React.Component {
     constructor(props) {
@@ -9,12 +12,15 @@ class ProductList extends React.Component {
     }
 
 render() {
-    const { products } = this.props;
+
+    const { products, filters } = this.props;
+
     return (
         <div>
+                <BaseListSidebar />
         <div className="row mb-4">
             {
-               products.map((product) => {
+               products.filter(product => product.price > filters.allFilters.min && product.price < filters.allFilters.max).map((product) => {
                     return <ProductItem
                                           {...product}
                                           key={product.id}
@@ -28,4 +34,13 @@ render() {
         }
 }
 
-export default ProductList;
+
+function mapStateToProps(state) {
+    return {
+      filters: state.filter
+    }
+  }
+
+
+
+  export default connect(mapStateToProps, null)(ProductList);

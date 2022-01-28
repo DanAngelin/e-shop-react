@@ -58,7 +58,7 @@ function handleSignOut() {
 // function mapStateToProps for number of products in cart
 function mapStateToProps(state) {
   return {
-    numberOfProducts: state.products.length
+    numberOfProducts: state.cart.products.length,
   }
 }
 // connect, HOC

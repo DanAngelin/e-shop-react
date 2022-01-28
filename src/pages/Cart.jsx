@@ -7,7 +7,6 @@ import { ReactComponent as Close } from '../assets/icons/close.svg';
 import { removeFromCart } from '../redux/actions/removeFromCart'
 
 function Cart(props) {
-
     return(
 
         <Layout>
@@ -59,7 +58,7 @@ function Cart(props) {
 
 function mapStateToProps(state) {
     return {
-        products: state.products,
+        products: state.cart.products,
     };
 }
 
