@@ -14,21 +14,24 @@ class ProductList extends React.Component {
 render() {
 
     const { products, filters } = this.props;
+console.log(filters.allFilters.min, filters.allFilters.max)
+
 
     return (
         <div>
                 <BaseListSidebar />
-        <div className="row mb-4">
-            {
-               products.filter(product => product.price > filters.allFilters.min && product.price < filters.allFilters.max).map((product) => {
-                    return <ProductItem
-                                          {...product}
-                                          key={product.id}
-                                      />
-                })
+            <div className="row mb-4">
+                {
+                    
+                products.filter(product => product.price > filters.allFilters.min && product.price < filters.allFilters.max).map((product) => {
+                        return <ProductItem
+                                            {...product}
+                                            key={product.id}
+                                        />
+                    })
 
-            }
-        </div>
+                }
+            </div>
         </div>
     );
         }

@@ -18,7 +18,7 @@ class BaseListSidebar extends React.Component {
                     <label className='mr-2'><input type="radio" name="filter-price" onChange={() => this.props.filterPrice102999()}/>€ 10-29.99</label>
                     <label className='mr-2'><input type="radio" name="filter-price" onChange={() => this.props.filterPrice303999()}/>€ 30-39.99</label>
                     <label className='mr-2'><input type="radio" name="filter-price" onChange={() => this.props.filterPrice407999()}/>€ 40-79.99</label>
-                    <label className='mr-2'><input type="radio" name="filter-price" defaultChecked onChange={() => this.props.filterPriceNoFilter()}/>No Filter</label>
+                    <label className='mr-2'><input type="radio" name="filter-price" onChange={() => this.props.filterPriceNoFilter()}/>No Filter</label>
                 </form>
             </div>
         )

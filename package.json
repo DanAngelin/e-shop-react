@@ -1,5 +1,6 @@
 {
   "name": "e-shop-react",
+  "homepage": "https://e-shop-react.angelindev.xyz/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

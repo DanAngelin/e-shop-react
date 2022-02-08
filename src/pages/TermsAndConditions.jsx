@@ -9,6 +9,7 @@ function TermsAndConditions() {
             <Layout>
                 <div className='terms'>
                     <h4 className='h5'>Terms and Conditions</h4>
+                    <p>https://www.termsandconditionsgenerator.com/</p>
                         <p>Welcome to E-Shop!</p>
 
                         <p>These terms and conditions outline the rules and regulations for the use of E-Shop's Website, located at E-Shop.</p>

@@ -8,9 +8,8 @@ import './Footer.css';
 
 function Footer() {
   return(
-    <footer className='bottom-fixed'>
-    <div className="container-fluid container-min-max-width
-        d-flex justify-content-between align-items-center">
+    <footer className="pt-3 mt-3">
+    <div className="container-fluid container-min-max-width d-flex justify-content-between">
         <div>
             <h3 className='h5'>Quick Links:</h3>
             <p className='mb-1'>

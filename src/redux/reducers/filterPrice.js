@@ -38,7 +38,7 @@ export function filterReducer(state = initialState, action) {
                             }
 
         default:
-            return state
+            return state = initialState
     }
 
 }

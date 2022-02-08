@@ -6,7 +6,7 @@ function About() {
   return(
     <div>
     <Layout>
-        <div className='about'>
+        <div className='about content-min-height'>
             <h3>Welcome To <span>E-Shop</span></h3>
                 <p> E-Shop s a Professional Online shop Platform. </p>
                 <p>Founded in <span>2022 by Dan Angelin</span>, E-Shop has come a long way from its beginnings in <span>Bucharest located in Romania.</span> </p>

@@ -10,7 +10,7 @@ function Cart(props) {
     return(
 
         <Layout>
-            <div className="cart-page container-fluid container-min-max-width
+            <div className="cart-page content-min-height container-fluid container-min-max-width
                             d-flex flex-column justify-content-center align-items-center p-1">
                 {
 
@@ -58,7 +58,7 @@ function Cart(props) {
 
 function mapStateToProps(state) {
     return {
-        products: state.cart.products,
+        products: state.cart.products
     };
 }
 

@@ -2,3 +2,7 @@
     min-width: 320px;
     max-width: 1200px;
 }
+
+.content-min-height {
+    min-height: 68vh;
+}

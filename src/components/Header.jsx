@@ -3,6 +3,8 @@ import {Link} from 'react-router-dom';
 import Logo from '../assets/images/logo.png';
 import { ReactComponent as ShoppingCart } from '../assets/icons/shopping-cart.svg';
 import { ReactComponent as LoginIcon } from '../assets/icons/login.svg';
+import { ReactComponent as AddFavorites } from '../assets/icons/add_to_favorites.svg';
+import { ReactComponent as RemoveFavorites } from '../assets/icons/remove_from_favorites.svg';
 import './Header.css';
 import { connect } from 'react-redux';
 import { logoutUser } from '../redux/actions/user';
@@ -11,7 +13,7 @@ import { logoutUser } from '../redux/actions/user';
 function Header(props) {
 
   // props for google, facebook and number of products in cart
-const { numberOfProducts } = props;
+const { numberOfProducts, numberOfFavorites } = props;
 
   return(
     <header className="border-bottom mb-3">
@@ -33,11 +35,19 @@ const { numberOfProducts } = props;
                   : <Link to="/login" className="h5">Login<LoginIcon className='login-icon'/></Link>
                 }
 
+                <div className='d-flex align-items-center'>
+                  <Link to="/favorites" className="d-flex align-items-center">
+                      {numberOfFavorites ? <AddFavorites className="ml-2" /> : <RemoveFavorites className="ml-2" />}
+                    <p className="ml-2 mb-0 h5">{ numberOfFavorites }</p>
+                  </Link>
+                </div>
+
+
                   {/* Link to page cart - svg cart - number of products in cart */}
                 <div className='d-flex align-items-center'>
                   <Link to="/cart" className="d-flex align-items-center">
-                    <ShoppingCart className="ml-2" />
-                    <p className="ml-2 mb-0 h5">{ numberOfProducts }</p>
+                      <ShoppingCart className="ml-2" />
+                      <p className="ml-2 mb-0 h5">{ numberOfProducts }</p>
                   </Link>
                 </div>
 
@@ -53,6 +63,7 @@ const { numberOfProducts } = props;
 function mapStateToProps(state) {
   return {
     numberOfProducts: state.cart.products.length,
+    numberOfFavorites: state.addfavorite.products.length,
     user: state.user.data
   }
 }
