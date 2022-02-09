@@ -28,7 +28,7 @@ export function filterReducer(state = initialState, action) {
         case 'FILTER_40_7999':
                         return {
                             ...state,
-                            allFilters: {min: 40, max: 79.99}
+                            allFilters: {min: 40, max: 79.99},
                         }
 
         case 'NO_FILTER':
@@ -37,8 +37,8 @@ export function filterReducer(state = initialState, action) {
                                 allFilters: {min: 0, max: 100}
                             }
 
-        default:
-            return state = initialState
+        default: 
+            return state
     }
 
 }

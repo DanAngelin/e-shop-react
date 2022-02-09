@@ -21,7 +21,7 @@ return(
                 // display the products in page favorites
                 props.productsFavorites.map(product => {
                     return <div className="w-100 mt-2 item-favorite d-flex justify-content-around align-items-center text-center" key={product.id}>
-                        <img className="w-25" src={ product.image } alt="product" />
+                        <img src={ product.image } className="w-25" alt="product" />
                                     <p className="mb-1 text-center w-25">{ product.name }</p>
                                 <p className="text-center w-25">{ product.price } { product.currency }</p>
                                 <RemoveFavorites onClick={() => props.removeFromFavorites({id: product.id})} />

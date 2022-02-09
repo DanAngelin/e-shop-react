@@ -6,6 +6,7 @@
 
 .cart-page img {
     max-height: 100px;
+    object-fit: contain;
 }
 
 .cart-page svg {

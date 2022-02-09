@@ -14,8 +14,8 @@ class ProductList extends React.Component {
 render() {
 
     const { products, filters } = this.props;
-console.log(filters.allFilters.min, filters.allFilters.max)
-
+console.log(filters)
+console.log(products)
 
     return (
         <div>

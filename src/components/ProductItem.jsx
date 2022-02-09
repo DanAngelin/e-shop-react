@@ -14,10 +14,6 @@ function ProductItem(props) {
     // product props
     const { id, name, price, currency, image, productsFavorites } = props;
     const idFavorites = productsFavorites.map(favorites => favorites.id);
-    console.log(props)
-    console.log(props.id)
-    console.log(idFavorites)
-
 
     return(
         // display product
