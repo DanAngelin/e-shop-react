@@ -3,4 +3,12 @@ https://www.pexels.com/
 https://unsplash.com/
 }
 
-svg { https://dryicons.com/ }
+imgProducts {
+https://www.pngegg.com/
+}
+
+svg { 
+https://dryicons.com/
+https://icon-icons.com
+https://iconscout.com/
+ }

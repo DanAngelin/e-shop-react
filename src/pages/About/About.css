@@ -1,0 +1,16 @@
+.about {
+    margin: auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 0.5rem;
+    color: #1A1B2F;
+    }
+
+.about svg {
+    width: 24px;
+    margin-right: 0.4rem;
+}
+
+.about span {
+   color: #E33E5A;
+    }

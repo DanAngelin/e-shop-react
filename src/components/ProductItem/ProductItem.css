@@ -1,0 +1,57 @@
+.product-page {
+    position: relative;
+}
+
+.product-page .heart-icon {
+    width: 35px;
+    top: 0;
+    position: absolute;
+    right: 0;
+    margin: 0.3rem;
+    cursor: pointer;
+}
+
+.product-page .heart-icon:active {
+    transform: scale(1.1);
+}
+
+.product-item {
+    background:#F9FBF7 !important;
+    border-radius: 1rem !important;
+    transform: translateY(2rem);
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+
+.product-item img {
+    max-width: 250px;
+    max-height: 250px;
+    transition: 1s;
+}
+
+.product-item:hover img {
+    filter: hue-rotate(10%);
+    transform: translateY(-0.5rem);
+}
+
+.product-page svg {
+    width: 20px;
+}
+
+.product-page button {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.product-page button:active {
+    background-color: #654360 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .product-item {
+        margin: -25px;
+    }
+}

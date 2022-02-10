@@ -1,0 +1,15 @@
+.page_404 {
+    min-height: 100vh;
+    background: rgba(255, 255, 255, 0.6);
+    margin: 0 auto;
+}
+
+.page_404 svg {
+    width: 24px;
+    margin-right: 0.5rem;
+}
+
+.page_404 img {
+    width: 600px;
+    height: auto;
+}

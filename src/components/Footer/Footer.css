@@ -1,0 +1,24 @@
+footer {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.16), 0 0 8px rgba(0,0,0,0.80);
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.4);
+    width: 100%;
+}
+
+footer a {
+    color: black;
+}
+
+footer svg {
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-tracks: center;
+        gap: 1rem;
+    }
+}

@@ -1,16 +1,16 @@
 import './App.css';
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Login from './pages/Login';
+import Login from './pages/Login/Login';
 import Register from './pages/Register';
-import Home from './pages/Home';
-import About from './pages/About';
-import Page404 from './pages/Page404';
+import Home from './pages/Home/Home';
+import About from './pages/About/About';
+import TermsAndConditions from './pages/TermsAndConditions/TermsAndConditions';
+import Page404 from './pages/Page404/Page404';
 import Category from './pages/Category';
-import Cart from './pages/Cart';
-import Favorites from './pages/Favorites';
-import Product from './pages/Product';
-import TermsAndConditions from './pages/TermsAndConditions';
+import Cart from './pages/Cart/Cart';
+import Favorites from './pages/Favorites/Favorites';
+import Product from './pages/Product/Product';
 import './utils/utility-classes.css';
 
 

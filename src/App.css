@@ -8,10 +8,10 @@ body {
 }
 
 body a {
-  color: black;
+  color: #52575D;
   text-decoration: none !important;
 }
 
 body a:hover {
-  color: black;
+  color: #52575D;
 }

@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import React from 'react';
-import ProductItem from './ProductItem';
-import BaseListSidebar from './BaseListSidebar';
+import ProductItem from './ProductItem/ProductItem';
+import BaseListSidebar from './BaseListSidebar/BaseListSidebar';
 
 
 class ProductList extends React.Component {
@@ -14,8 +14,6 @@ class ProductList extends React.Component {
 render() {
 
     const { products, filters } = this.props;
-console.log(filters)
-console.log(products)
 
     return (
         <div>
@@ -23,7 +21,7 @@ console.log(products)
             <div className="row mb-4">
                 {
                     
-                products.filter(product => product.price > filters.allFilters.min && product.price < filters.allFilters.max).map((product) => {
+                products.filter(product => product.price > filters.min && product.price < filters.max).map((product) => {
                         return <ProductItem
                                             {...product}
                                             key={product.id}

@@ -1,0 +1,36 @@
+.favorites-page {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    text-align: center;
+    margin: auto;
+}
+
+.item-favorite {
+    background:#F9FBF7 !important;
+    border-radius: 1rem !important;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+    /* margin: auto; */
+}
+
+.item-favorite img {
+    max-height: 200px;
+    object-fit: contain;
+    transition: 1s;
+}
+
+.item-favorite:hover img {
+    filter: hue-rotate(10%);
+    transform: translateY(-0.5rem);
+}
+
+.item-favorite svg {
+    width: 35px;
+    height: 35px;
+    height: auto;
+    cursor: pointer;
+}
+
+.item-favorite svg:active {
+    transform: scale(1.1);
+}

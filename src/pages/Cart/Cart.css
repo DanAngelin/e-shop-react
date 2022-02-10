@@ -1,0 +1,19 @@
+.cart-page {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+
+}
+
+.cart-page img {
+    max-height: 100px;
+    object-fit: contain;
+}
+
+.cart-page svg {
+    cursor: pointer;
+    width: 25px;
+}
+
+.cart-page button {
+    gap: 0.5rem
+}

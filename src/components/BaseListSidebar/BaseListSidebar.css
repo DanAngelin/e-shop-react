@@ -1,0 +1,13 @@
+.filter_price {
+    border: 1px solid black;
+    margin: auto;
+    padding: 0.3rem 0.5rem;
+    border-radius: 1rem;
+    display: inline-flex;
+    flex-direction: column;
+    color: #52575D;
+}
+
+.filter_price label, input {
+    cursor: pointer;
+}
